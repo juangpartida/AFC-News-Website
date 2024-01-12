@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arsenal F.C. News Feed</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Arsenal F.C. News Feed</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Latest News</a></li>
+            <li><a href="#" role="button">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Welcome to Arsenal F.C. News Feed</h2>
+                    <h3>Your source for all the latest Arsenal news</h3>
+                </hgroup>
+                <p>Stay updated with the latest news, match updates, player interviews, and exclusive content about Arsenal Football Club.</p>
+                <figure>
+                    <img src="https://source.unsplash.com/featured/?arsenalfc" alt="Arsenal Football Club" />
+                    <figcaption><a href="https://www.arsenal.com" target="_blank">Visit Official Arsenal Website</a></figcaption>
+                </figure>
+                <h3>Latest Updates</h3>
+                <p>Get the latest match highlights, player stats, and game analyses, updated regularly.</p>
+                <h3>Exclusive Interviews</h3>
+                <p>Read in-depth interviews with players, coaches, and key figures of the club.</p>
+            </section>
+        </div>
+    </main>
+    <section aria-label="Subscribe example">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Subscribe</h2>
+                    <h3>Don't miss any updates!</h3>
+                </hgroup>
+                <form class="grid">
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required />
+                    <input type="email" id="email" name="email" placeholder="Email Address" aria-label="Email Address" required />
+                    <button type="submit" onclick="event.preventDefault()">Subscribe Now</button>
+                </form>
+            </article>
+        </div>
+    </section>
+    <footer class="container">
+        <small><a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a></small>
+    </footer>
+</body>
+</html>
