@@ -1,0 +1,57 @@
+/* FILEPATH: /c:/Users/juang/OneDrive/Desktop/School/Personal Project/main/css/styles.css */
+
+/* Reset default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./photos/background-final.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #a94a4a;
+}
+
+
+/* Add some styles to headings */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Add some styles to paragraphs */
+p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.container-fluid {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+    border-radius: 50px; /* Makes the corners round */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container-fluid ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-fluid ul li {
+    margin-bottom: 10px;
+}
+
+.container-fluid ul li a {
+    text-decoration: none;
+    color: black; /* Change as needed */
+}
