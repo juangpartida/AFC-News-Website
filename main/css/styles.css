@@ -33,25 +33,41 @@ p {
     margin-bottom: 20px;
 }
 
-.container-fluid {
-    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
-    border-radius: 50px; /* Makes the corners round */
-    padding: 20px;
-    box-sizing: border-box;
-}
-
 .container-fluid ul {
     list-style-type: none;
-    padding: 0;
     display: flex;
     justify-content: space-around;
 }
 
-.container-fluid ul li {
-    margin-bottom: 10px;
+.container-fluid ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+    color: black;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
 }
 
-.container-fluid ul li a {
-    text-decoration: none;
-    color: black; /* Change as needed */
+.container-fluid ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.7); /* Slightly less transparent when hovered */
+    transform: scale(1.1);
+}
+
+.container-fluid ul li a:active {
+    background-color: rgba(255, 255, 255, 0.9); /* Even less transparent when clicked */
+    transform: scale(0.9);
+}
+
+button {
+    border-radius: 50px; /* Makes the corners round */
+    transition: transform 0.3s ease; /* Smooth movement effect */
+}
+
+button:hover {
+    transform: translateY(-3px); /* Moves the button up when hovered */
+}
+
+button:active {
+    transform: translateY(1px); /* Moves the button down when clicked */
 }
